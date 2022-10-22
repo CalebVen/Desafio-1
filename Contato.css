@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 949px;
+    background: #FFFFFF;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    color: #FDFDFD;
+    position: absolute;
+    width: 309px;
+    height: 23px;
+    left: 1400px;
+    top: 47px;
+    text-transform: uppercase;
+}
+
+header ul li a {
+    color: #FDFDFD;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.98px;
+}
+
+img {
+    position: absolute;
+    width: 244px;
+    height: 77px;
+    left: 82px;
+    top: 20px;
+}
+
+.form form {
+    left: 300px;
+}
+
+form {
+    position: absolute;
+    width: 496px;
+    height: 419px;
+    left: 136px;
+    top: 222px;
+    border-radius: 4px;
+}
+
+form input {
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    border: 1px #686868;
+}
+
+h1 {
+    left: 0%;
+    right: 68.95%;
+    top: 0%;
+    bottom: 89.02%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+.nome {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    bottom: 70.88%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+.email {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 32.7%;
+    bottom: 59.67%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+.mensagem {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 43.68%;
+    bottom: 10.26%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    vertical-align: super;
+    padding-left: 15px;
+    padding-bottom: 140px;
+}
+
+main button {
+    position: absolute;
+    background: #FF4081;
+    border: #FF4081;
+    border-radius: 50px;
+    cursor: pointer;
+    left: 2.02%;
+    right: 79.21%;
+    top: 94.51%;
+    bottom: 0.24%; 
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;    
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+main img {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    left: 1200px;
+    top: 199px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 207px;
+    left: 0px;
+    top: 949px;
+}
+
+footer section {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #419488;
+}
+
+footer img {
+    position: absolute;
+    left: 8.89%;
+    right: 84.27%;
+    top: 25.6%;
+    bottom: 25.4%;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+        left: 43.26%;
+        right: 51.81%;
+        top: 25.6%;
+        bottom: 34.3%;
+}
+
+footer ul li a {   
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.prof {
+    box-sizing: border-box;
+    position: absolute;
+    cursor: pointer;
+    left: 70.42%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    color: #FFFFFF;
+    background-color: #419488;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.link {
+    box-sizing: border-box;
+    position: absolute;
+    cursor: pointer;
+    left: 70.42%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    color: #FFFFFF;
+    background-color: #419488;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
