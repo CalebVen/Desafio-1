@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 768px)and
+(max-width:1023px) {
+    
+}
+
+
+
+
+
+body {
+    font-family: 'Ubuntu';
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: #2E948A;  
+    width: 100%;
+    height: 7.3125rem;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0.1875rem 0.4375rem rgba(0, 0, 0, 0.25); 
+
+}
+
+.logo {
+   margin-left: -12.5rem;
+   width: 15.25rem;
+   height: 4.8125rem;
+}
+
+
+.menu nav ul {
+    display: flex;
+    margin-right: -12.5rem;    
+    
+}
+
+.menu nav li { 
+    list-style: none;   
+  
+}
+
+.menu nav li a {
+   margin: 1.21rem; 
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 1.25rem;
+   line-height: 1.4375rem;
+   color: #FFFFFF;
+
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    height: 650px;
+    top:100px;   
+    
+}
+
+
+.texto_banner h3 {  
+    width: 488px;
+    height: 216px;
+    left: 206px;
+    top: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    margin: 0;
+    padding: 20px;
+    margin-left: 45px;
+}
+
+.texto_banner p{
+    width: 462px;
+    height: 62px;
+    left: 207px;
+    top: 310px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    margin: 0;
+    margin-left: 60px;
+}
+
+.botao1 {
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.botao_banner{
+    list-style: none;
+    box-sizing: border-box;
+    width: 268px;
+    height: 51px;
+    left: 207px;
+    top: 400px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #FFFFFF;
+
+}
+
+.a_banner {
+    text-decoration: none;
+    width: 216px;
+    height: 20.27px;
+    left: 233px;
+    top: 585.5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    background-color: #FFFFFF;   
+
+}
+
+.imgbanner {
+    padding: 0;
+    margin-right: 100px;
+    width: 501px;
+    height: 511px;
+    left: 50.9%;
+    right: 14.31%;
+    top: 7.88%;
+    bottom:76.13%;
+    
+}
+
+.cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    left: 0px;   
+    background-color: #F6F6F6;
+}
+
+.secao_cursos {
+    margin: 50px;
+    padding: 10px;
+    margin-top: 200px;
+}
+
+
+.secao_cursos .img {
+    margin-top: -150px;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.secao_cursos h3 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+    text-align: center;
+
+}
+
+.secao_cursos p {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.btn_cursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #FF4081;
+    width: 233px;
+    height: 51px;
+    margin: 50px;    
+
+}
+
+.btna_cursos {    
+    
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;   
+    
+}
+
+.sobre_nos {    
+    height: 500px;
+    top: 2000px;
+    left: 0px;
+    
+}
+
+.titulo_sobre h2 {
+    margin-left: 100px;
+    width: 478px;
+    height: 50px;
+    left: 128px;
+    top: -150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+.bloco1,
+.bloco2  {
+    display: flex;
+    justify-content:space-around;   
+    
+}
+
+.bloco1,
+.bloco2 {
+    margin: 50px;
+}
+
+.sobre_nos .bloco1 p,
+.sobre_nos .bloco2 p { 
+    display: flex;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    
+}
+
+.img_bloco1,
+.img_bloco2 {
+  margin: 10px; 
+
+}
+
+
+.avatar_wally,
+.avatar_jaden,
+.avatar_whoopi,
+.avatar_janes {
+
+  display: flex;    
+   
+}
+
+.conteudo{   
+    height: 650px;
+    left: 0px;
+    padding: 50px;
+    background-color: #F6F6F6;
+}
+
+.mais_conteudo h5 { 
+    margin-top: 100px;       
+    margin: 30px;    
+    width: 530px;
+    left: 125px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color:#009688;
+    
+}
+
+.mais_conteudo2 {
+      display: flex;
+      justify-content: space-around;     
+    
+}
+
+.quadrado {
+    width: 319px;
+    height: 193px;
+    padding : 20px;  
+    margin: 20px;      
+    background-color: #C4C4C4;
+}
+
+.mais_conteudo2 h3 {
+    margin-left: 30px; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color:#009688;
+    text-align: left;
+   
+}
+
+.mais_conteudo2 p {
+    margin-left: 30px;
+    margin-top: -20px;     
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+   
+}
+
+.btn_posts {
+    list-style: none;
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #F7F7F7;
+    position: absolute;
+    width: 289px;
+    height: 51px;
+    left: 550px;
+    margin-top: 450px;
+
+}
+
+.btna_posts {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FF4081;
+    background-color:#F7F7F7;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #2E948A;
+    width: 100%;
+    height: 12.9375rem;
+    left: 0;    
+    
+}
+
+.logo_footer {
+    width: 19.5rem;
+    height: 6.3125rem;
+}
+
+.menu_footer nav li {
+    list-style: none;
+    margin: 0.625rem;
+   
+}
+
+.menu_footer nav li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    color: #FFFFFF;
+
+}
+
+.botoes .btn_footer1,
+.botoes .btn_footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0.125rem solid #FFFFFF;
+    border-radius: 3.875rem;
+    background-color: #2E948A;
+    width: 18.0625rem;
+    height: 3.1875rem;
+
+}
+
+.botoes .btna_footer1,
+.botoes .btna_footer2 {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    color: #FFFFFF;
+    background-color:#2E948A;
+
+}
+
+
+@media screen and (max-width:767px) {
+    .logo {
+        margin-left: -2rem;
+        width: 15.25rem;
+        height: 4.8125rem;
+     }
+     
+}
